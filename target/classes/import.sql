@@ -16,5 +16,5 @@ INSERT INTO insurancepolicy (id, car_id, provider, start_date, end_date) VALUES 
 
 ALTER TABLE claims ALTER COLUMN id RESTART WITH 3;
 
-alter table car alter column id restart with 1000;
+ALTER TABLE car ALTER COLUMN id RESTART WITH 1000;
 
